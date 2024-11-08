@@ -1,0 +1,8 @@
+{
+  "name": "snapshot-bug",
+  "tasks": {
+    "fmt": "deno fmt",
+    "test": "ENVIRONMENT=test deno test"
+  },
+  "imports": { "@std/testing": "jsr:@std/testing@^1.0.4" }
+}
